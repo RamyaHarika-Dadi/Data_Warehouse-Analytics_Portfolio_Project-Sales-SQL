@@ -1,5 +1,4 @@
-/********************************************************************************************
-
+/*
 ---------------------------------------------------------------------------------------------
 Create Database and Schemas
 ---------------------------------------------------------------------------------------------
@@ -25,7 +24,7 @@ Create Database and Schemas
  2. Execute this script step-by-step or all at once.
  3. Ensure you are connected to the 'master' database initially.
 
-*********************************************************************************************/
+*/
 
 
 USE master;
@@ -53,7 +52,7 @@ GO
 USE DataWarehouse_Sales;
 GO
 
--- Create Schema 'bronze, silver, gold'
+-- Create Schemas 'bronze, silver, gold'
 CREATE SCHEMA bronze;
 GO                           
 CREATE SCHEMA silver;
