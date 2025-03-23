@@ -1,6 +1,6 @@
 # 📊 Data Warehouse & Analytics Project
 
-Welcome to my **Data Warehouse and Analytics Project**! 🚀  
+🚀  Welcome to my **Data Warehouse and Analytics Project**! 
 This project showcases a complete data warehousing and analytics solution — from raw data ingestion to building insightful business reports. It is built using **SQL Server** and follows industry best practices in **ETL, data modeling**, and **data analysis**.
 
 ---
@@ -24,6 +24,9 @@ The project implements the **Medallion Architecture**, separating the data into 
 
 This project includes:
 
+- 🏛️ **Data Architecture**  
+  Designing a modern data warehouse using the **Medallion Architecture** with Bronze, Silver, and Gold layers to organize and transform data effectively.
+  
 - 🔄 **ETL Pipelines**  
   Building SQL-based ETL pipelines for extracting, transforming, and loading data.
 
@@ -56,24 +59,34 @@ This project includes:
 
 ---
 
-## 🚀 Project Goals
+## 🚀 Project Requirements
 
-### Data Engineering
+### Building the Data Warehouse (Data Engineering)
 
-- Import ERP and CRM data from CSVs into SQL Server.
-- Cleanse and standardize data to ensure consistency.
-- Integrate data sources into a unified warehouse.
-- Implement the Medallion Architecture (Bronze, Silver, Gold layers).
+**Objective**  
+Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
-### Data Analytics
+**Specifications**
 
-- Develop SQL queries to extract business insights on:
-  - 🧑 Customer Behavior
-  - 📦 Product Performance
-  - 💰 Sales Trends
-- Build reports to support data-driven decision-making.
+- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.  
+- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.  
+- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.  
+- **Scope**: Focus on the latest dataset only; historization of data is not required.  
+- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.  
 
 ---
 
+### BI: Analytics & Reporting (Data Analysis)
+
+**Objective**  
+Develop SQL-based analytics to deliver detailed insights into:
+
+- Customer Behavior  
+- Product Performance  
+- Sales Trends  
+
+These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+
+---
 ## 📂 Repository Structure
 
