@@ -17,8 +17,7 @@ Create Database and Schemas
  ⚠️ Make sure to back up any important data before running this script.
  ⚠️ Run this script on a safe development or test environment — not in production!
 
- How to Run:
- -----------
+🧑‍💻  How to Run:
  1. Open SQL Server Management Studio (SSMS).
  2. Execute this script step-by-step or all at once.
  3. Ensure you are connected to the 'master' database initially.
