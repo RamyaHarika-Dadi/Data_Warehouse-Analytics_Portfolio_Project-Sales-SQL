@@ -8,6 +8,13 @@ This script creates a stored procedure [bronze.load_bronze] responsible for load
 raw data from CSV files into the Bronze Layer of the data warehouse using BULK INSERT.
 The data is sourced from ERP and CRM systems and loaded into staging tables.
 
+📌 Parameters:
+- None.  
+  This stored procedure does not accept any parameters or return any values.
+
+▶️ Usage Example:
+EXEC bronze.load_bronze;
+
 🔑 Key Features:
 - Loads data into six bronze tables from source CSV files.
 - Truncates existing table data before each load to prevent duplication.
@@ -31,7 +38,7 @@ Warnings:
 
 
 
--- BULK INSERTING the data from source to database tables & ----------STORED PROCEDURE -------
+-- BULK INSERTING the data from source to database tables ---STORED PROCEDURE -------
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS 
 BEGIN
 	BEGIN TRY
