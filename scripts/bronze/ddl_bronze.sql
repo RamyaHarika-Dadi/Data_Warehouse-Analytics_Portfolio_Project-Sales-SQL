@@ -1,6 +1,27 @@
----------------------------------------------------------------------------------------------------------------
---BRONZE LAYER--
----------------------------------------------------------------------------------------------------------------
+/*
+====================================================================================================
+BRONZE LAYER - Data Warehouse Project
+====================================================================================================
+
+📌 PURPOSE:
+This script creates raw staging (bronze) tables used for initial data ingestion in the 
+Data Warehouse pipeline. These tables reflect the source data from CRM and ERP systems.
+
+🧱 LAYER: Bronze
+- crm_cust_info: CRM customer information
+- crm_prd_info: CRM product data
+- crm_sales_details: CRM sales transactions
+- erp_cust_az12: ERP customer basic data
+- erp_loc_a101: ERP location data
+- erp_px_cat_g1v2: ERP product category and maintenance data
+
+⚠️ WARNING:
+This script DROPS and RE-CREATES the tables in the [bronze] schema if they already exist.
+ALL existing data in these tables will be lost upon execution.
+
+====================================================================================================
+*/
+
 -- Create tables in bronze layer
 IF OBJECT_ID ('bronze.crm_cust_info' , 'U') IS NOT NULL
 	DROP TABLE bronze.crm_cust_info;
