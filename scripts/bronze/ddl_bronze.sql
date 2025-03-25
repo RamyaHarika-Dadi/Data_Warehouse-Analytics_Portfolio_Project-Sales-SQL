@@ -1,11 +1,15 @@
 /*
 ====================================================================================================
-BRONZE LAYER - Data Warehouse Project
+Create Bronze Layer Tables - Data Warehouse Project
 ====================================================================================================
 
 📌 PURPOSE:
-This script creates raw staging (bronze) tables used for initial data ingestion in the 
-Data Warehouse pipeline. These tables reflect the source data from CRM and ERP systems.
+This script creates raw staging (bronze) tables used for initial data ingestion in the Data Warehouse pipeline. 
+
+It performs the following actions:
+1. Drops existing tables in the 'bronze' schema if they exist.
+2. Creates fresh staging tables for raw CRM and ERP data ingestion.
+These tables reflect the source data from CRM and ERP systems.
 
 🧱 LAYER: Bronze
 - crm_cust_info: CRM customer information
@@ -15,14 +19,14 @@ Data Warehouse pipeline. These tables reflect the source data from CRM and ERP s
 - erp_loc_a101: ERP location data
 - erp_px_cat_g1v2: ERP product category and maintenance data
 
-⚠️ WARNING:
-This script DROPS and RE-CREATES the tables in the [bronze] schema if they already exist.
-ALL existing data in these tables will be lost upon execution.
+Warnings:
+⚠️ This script will DROP and RE-CREATE the listed tables in the 'bronze' schema.
+⚠️ All existing data in these tables will be permanently lost.
+⚠️ Ensure you are running this script in a safe development or test environment.
 
-====================================================================================================
 */
 
--- Create tables in bronze layer
+-- Create CRM tables in bronze layer
 IF OBJECT_ID ('bronze.crm_cust_info' , 'U') IS NOT NULL
 	DROP TABLE bronze.crm_cust_info;
 CREATE TABLE bronze.crm_cust_info(
@@ -61,6 +65,7 @@ sls_quantity INT,
 sls_price INT
 );
 
+-- Create ERP tables in bronze layer
 IF OBJECT_ID ('bronze.erp_cust_az12', 'U') IS NOT NULL
 	DROP TABLE bronze.erp_cust_az12;
 CREATE TABLE bronze.erp_cust_az12(
