@@ -3,8 +3,7 @@
 Create Database and Schemas
 ---------------------------------------------------------------------------------------------
 
- Purpose:
- --------
+ 📌 Purpose:
  This script is used to set up the foundational environment for the Data Warehouse project.
  It performs the following actions:
  1. Drops the existing 'DataWarehouse_Sales' database if it exists.
@@ -12,7 +11,6 @@ Create Database and Schemas
  3. Adds the Medallion Architecture schemas: bronze, silver, and gold.
 
  Warnings:
- --------
  ⚠️ This script will permanently delete the existing 'DataWarehouse_Sales' database 
     and all its data.
  ⚠️ Make sure to back up any important data before running this script.
