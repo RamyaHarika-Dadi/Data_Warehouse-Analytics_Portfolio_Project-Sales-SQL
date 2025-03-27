@@ -48,7 +48,7 @@ prd_num NVARCHAR(50),
 prd_cost INT,
 prd_line NVARCHAR(50),
 prd_start_dt DATE,
-pr_end_dt DATETIME
+prd_end_dt DATETIME
 );
 
 IF OBJECT_ID ('bronze.crm_sales_details', 'U') IS NOT NULL
