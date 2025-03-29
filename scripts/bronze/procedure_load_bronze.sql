@@ -37,8 +37,9 @@ Warnings:
 */
 
 
-
--- BULK INSERTING the data from source to database tables ---STORED PROCEDURE -------
+---------------------------------------------------------------------------------------------------------------
+--Stored Procedure - Bronze layer: BULK INSERTING the data from source to database tables 
+---------------------------------------------------------------------------------------------------------------
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS 
 BEGIN
 	BEGIN TRY
@@ -172,3 +173,10 @@ BEGIN
 	END CATCH
 END
 
+
+
+
+---------------------------------------------------------------------------------------------------------------
+--execute the procedure of bronze layer
+---------------------------------------------------------------------------------------------------------------
+EXEC bronze.load_bronze;
