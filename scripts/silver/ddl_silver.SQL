@@ -1,3 +1,33 @@
+/*
+====================================================================================================
+DDL Script: Create Silver Layer Tables
+====================================================================================================
+
+📌 PURPOSE:
+This script creates the cleansed and standardized (silver) tables in the Data Warehouse pipeline. 
+
+It performs the following actions:
+1. Drops existing tables in the 'silver' schema if they exist.
+2. Creates fresh tables to store processed data from CRM and ERP sources.
+3. Adds a metadata column [dwh_create_date] using DATETIME2 to track data load timestamp.
+
+These tables contain cleaned, enriched, and structured data ready for analytical modeling.
+
+🧱 LAYER: Silver
+- crm_cust_info: Cleaned CRM customer information
+- crm_prd_info: Enriched CRM product data with category ID
+- crm_sales_details: Cleaned CRM sales transaction data with corrected dates
+- erp_cust_az12: Cleaned ERP customer data
+- erp_loc_a101: ERP customer location details
+- erp_px_cat_g1v2: ERP product category and maintenance information
+
+Warnings:
+⚠️ This script will DROP and RE-CREATE the listed tables in the 'silver' schema.
+⚠️ All existing data in these tables will be permanently lost.
+⚠️ Ensure you are running this script in a safe development or test environment.
+
+*/
+
 ---------------------------------------------------------------------------------------------------------------
 --SILVER LAYER - Creating tables
 ---------------------------------------------------------------------------------------------------------------
