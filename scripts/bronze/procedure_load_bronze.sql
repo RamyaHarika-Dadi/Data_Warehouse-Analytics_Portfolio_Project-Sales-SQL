@@ -4,8 +4,7 @@ Load Data into Bronze Layer - Stored Procedure
 ====================================================================================================
 
 📌 Purpose:
-This script creates a stored procedure [bronze.load_bronze] responsible for loading 
-raw data from CSV files into the Bronze Layer of the data warehouse using BULK INSERT.
+This script creates a stored procedure [bronze.load_bronze] responsible for loading raw data from CSV files into the Bronze Layer of the data warehouse using BULK INSERT.
 The data is sourced from ERP and CRM systems and loaded into staging tables.
 
 ⚙️ Parameters:
