@@ -4,9 +4,8 @@
 ====================================================================================================
 
 📌 Purpose:
-This script creates a stored procedure [silver.load_silver] that loads cleansed and 
-standardized data into the Silver Layer of the data warehouse. It transforms raw data 
-from the Bronze Layer into structured, analytics-ready data.
+This script creates a stored procedure [silver.load_silver] that loads cleansed and standardized data into the Silver Layer of the data warehouse. 
+It transforms raw data from the Bronze Layer into structured, analytics-ready data.
 
 The procedure performs:
 1. Truncation of existing silver tables.
