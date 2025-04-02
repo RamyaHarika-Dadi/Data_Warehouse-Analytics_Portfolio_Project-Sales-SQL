@@ -29,7 +29,7 @@ It helps ensure that the data is clean, reliable, and ready for analytics by che
 
 🧑‍💻 How to Run:
 1. Open SQL Server Management Studio (SSMS).
-2. Connect to your `DataWarehouse_Sales` database.
+2. Connect to your 'DataWarehouse_Sales' database.
 3. Execute the script section-by-section or all at once.
 
 ====================================================================================================
