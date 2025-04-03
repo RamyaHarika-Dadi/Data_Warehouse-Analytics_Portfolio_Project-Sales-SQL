@@ -1,4 +1,4 @@
-# 📊 Data Warehouse & Analytics Project
+# 📊 Data Warehouse & Analytics Portfolio Project
 
 🚀  Welcome to my **Data Warehouse and Analytics Project**! 
 This project showcases a complete data warehousing and analytics solution — from raw data ingestion to building insightful business reports. It is built using **SQL Server** and follows industry best practices in **ETL, data modeling**, and **data analysis**.
