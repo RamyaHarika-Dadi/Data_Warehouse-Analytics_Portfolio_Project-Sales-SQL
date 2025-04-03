@@ -8,6 +8,10 @@ This project showcases a complete data warehousing and analytics solution — fr
 ## 🏗️ Data Architecture – Medallion Layers
 
 The project implements the **Medallion Architecture**, separating the data into three layers for better management and scalability:
+## 🧱 Data Architecture
+
+![Data Architecture](docs/data_warehouse_data_architecture.png)
+
 
 - **🔹 Bronze Layer**  
   Raw data ingestion from CSV files (ERP and CRM) into SQL Server without transformation.
