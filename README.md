@@ -88,30 +88,6 @@ Develop SQL-based analytics to deliver detailed insights into:
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
 ---
-## 📂 Repository Structure
-data-warehouse-project/
-│
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
-│
-├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file showing ETL techniques and methods
-│   ├── data_architecture.drawio        # Project’s architectural layout
-│   ├── data_catalog.md                 # Dataset catalog with field descriptions and metadata
-│   ├── data_flow.drawio                # Data flow diagram
-│   ├── data_models.drawio              # Star schema data model diagram
-│   ├── naming-conventions.md           # Naming guidelines for tables, columns, and files
-│
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data (Bronze Layer)
-│   ├── silver/                         # Scripts for data cleaning and transformation (Silver Layer)
-│   ├── gold/                           # Scripts for dimensional modeling and fact tables (Gold Layer)
-│
-├── tests/                              # Data validation, integrity, and quality check queries
-│
-├── README.md                           # Project overview and usage instructions
-
-
-<details> <summary>Click to copy</summary>
 ## 📁 Repository Structure
 
 ```
