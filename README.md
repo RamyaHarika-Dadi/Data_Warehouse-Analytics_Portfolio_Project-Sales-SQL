@@ -110,8 +110,8 @@ data-warehouse-project/
 │   ├── bronze/                         # Scripts for extracting and loading raw data
 │   ├── silver/                         # Scripts for cleaning and transforming data
 │   ├── gold/                           # Scripts for creating analytical models
-│   ├── init_database.sql/              # Script for database initialization and schema setup
-│   ├── Exploratory Data Analysis.sql/  # EDA queries to analyze trends, metrics, and insights 
+│   ├── init_database.sql               # Script for database initialization and schema setup
+│   ├── Exploratory Data Analysis.sql   # EDA queries to analyze trends, metrics, and insights 
 │
 ├── tests/                              # Test scripts and quality files
 │
