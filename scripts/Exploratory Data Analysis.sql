@@ -4,39 +4,27 @@
 =======================================================================================
 
 📌 Purpose:
-This script performs Exploratory Data Analysis on the Gold Layer of the Data Warehouse.  
-It is designed to help understand the data better, extract key insights, and validate  
-data quality across customer, product, and sales dimensions.
+This script performs Exploratory Data Analysis (EDA) on the final analytical layer (Gold Layer)  
+of the SQL Data Warehouse. It helps uncover key insights, understand patterns, and validate  
+data quality before reporting and BI.
 
 ✅ The analysis includes:
-
-1️⃣ Database Exploration  
-   - Explore available tables, views, and columns
-
-2️⃣ Dimensions Exploration  
-   - Analyze attributes such as country, gender, and product categories
-
-3️⃣ Date Exploration  
-   - Identify order ranges, customer birthdates, and overall time span
-
-4️⃣ Measures Exploration  
-   - Summarize key metrics like total sales, quantity sold, prices, and order counts
-
-5️⃣ Magnitude Analysis  
-   - Break down data by category, country, and customer segments
-
-6️⃣ Ranking Analysis  
-   - Use window functions to identify top and bottom performers
+1️⃣ Database Exploration: List all tables and columns to understand the database structure.
+2️⃣ Dimensions Exploration: Explore customer countries, genders, and product categories.
+3️⃣ Date Exploration: Analyze order date ranges and customer age distribution.
+4️⃣ Measures Exploration: Calculate core business metrics like total sales, quantity sold, average price, and total orders.
+5️⃣ Magnitude Analysis: Group sales and customer counts by location, category, and demographics.
+6️⃣ Ranking Analysis: Use window functions to identify top and bottom products and customers.
 
 🗃️ Tables Used:
-- gold.dim_customers  
-- gold.dim_products  
-- gold.fact_sales
+- gold.dim_customers: Cleaned customer data  
+- gold.dim_products: Product metadata and hierarchy  
+- gold.fact_sales: Sales fact table used for KPIs and aggregations
 
-⚠️ Notes:
-- Ensure the Gold Layer views are built before running this script  
-- Run section-by-section to explore and analyze specific insights  
-- Designed for SQL Server and compatible with SSMS
+⚠️ WARNINGS:
+⚠️ This script is designed for data analysis only — it does not modify any tables.  
+⚠️ Results may vary if source data is updated or transformed.  
+⚠️ For best use, execute queries section-by-section in SQL Server Management Studio (SSMS).
 
 =======================================================================================
 */
