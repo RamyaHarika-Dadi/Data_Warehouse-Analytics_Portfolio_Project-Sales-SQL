@@ -6,23 +6,12 @@ of the Data Warehouse project. These queries uncover key business insights, high
 and validate data quality before BI/reporting or dashboarding.
 
 ## ✅ The Analysis Includes:
-1️⃣ **Database Exploration**  
-List all tables and columns to understand the database structure.
-
-2️⃣ **Dimensions Exploration**  
-Explore customer countries, genders, and product categories.
-
-3️⃣ **Date Exploration**  
-Analyze order date ranges and customer age distribution.
-
-4️⃣ **Measures Exploration**  
-Calculate core business metrics like total sales, quantity sold, average price, and total orders.
-
-5️⃣ **Magnitude Analysis**  
-Group sales and customer counts by location, category, and demographics.
-
-6️⃣ **Ranking Analysis**  
-Use window functions to identify top and bottom products and customers.
+1️⃣ **Database Exploration**: List all tables and columns to understand the database structure.
+2️⃣ **Dimensions Exploration**: Explore customer countries, genders, and product categories.
+3️⃣ **Date Exploration**: Analyze order date ranges and customer age distribution.
+4️⃣ **Measures Exploration**: Calculate core business metrics like total sales, quantity sold, average price, and total orders.
+5️⃣ **Magnitude Analysis**: Group sales and customer counts by location, category, and demographics.
+6️⃣ **Ranking Analysis**: Use window functions to identify top and bottom products and customers.
 
 ## 🗃️ Tables Used
 - `gold.dim_customers`
@@ -31,7 +20,8 @@ Use window functions to identify top and bottom products and customers.
 
 ## ⚠️ Warnings
 - This analysis is read-only (safe to run).  
-- Results reflect current warehouse data and may change with updates.  
-- Run scripts in **SQL Server Management Studio (SSMS)**, section-by-section as needed.
+- This script is designed for data analysis only — it does not modify any tables.  
+- Results may vary if source data is updated or transformed.  
+- For best use, execute queries section-by-section in SQL Server Management Studio (SSMS)
 
 ---
