@@ -1,4 +1,4 @@
-# 📊 Exploratory Data Analysis (EDA) – SQL Data Warehouse Project
+# 📊 Exploratory Data Analysis (EDA) – Data Warehouse Project 
 
 ## 📌 Purpose
 This directory contains modular SQL scripts for Exploratory Data Analysis (EDA) on the **Gold Layer**  
