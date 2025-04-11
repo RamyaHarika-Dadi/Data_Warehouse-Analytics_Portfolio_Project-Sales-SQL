@@ -107,10 +107,10 @@ data-warehouse-project/
 │   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── init_database.sql               # Script for database initialization and schema setup
 │   ├── bronze/                         # Scripts for extracting and loading raw data
 │   ├── silver/                         # Scripts for cleaning and transforming data
 │   ├── gold/                           # Scripts for creating analytical models
-│   ├── init_database.sql               # Script for database initialization and schema setup
 │   ├── Exploratory Data Analysis.sql   # EDA queries to analyze trends, metrics, and insights for business understanding
 │       ├── 0_EDA_Intro.md                  # EDA overview, purpose, and usage notes
 │       ├── 1_Database_Exploration.sql      # Explore tables, views, and columns
