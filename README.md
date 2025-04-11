@@ -111,7 +111,15 @@ data-warehouse-project/
 │   ├── silver/                         # Scripts for cleaning and transforming data
 │   ├── gold/                           # Scripts for creating analytical models
 │   ├── init_database.sql               # Script for database initialization and schema setup
-│   ├── Exploratory Data Analysis.sql   # EDA queries to analyze trends, metrics, and insights 
+│   ├── Exploratory Data Analysis.sql   # EDA queries to analyze trends, metrics, and insights for business understanding
+│       ├── 0_EDA_Intro.md                  # EDA overview, purpose, and usage notes
+│       ├── 1_Database_Exploration.sql      # Explore tables, views, and columns
+│       ├── 2_Dimensions_Exploration.sql    # Explore categorical dimensions (country, category, gender)
+│       ├── 3_Date_Exploration.sql          # Order and customer timeline analysis
+│       ├── 4_Measures_Exploration.sql      # Totals, averages, and key KPIs
+│       ├── 5_Magnitude_Analysis.sql        # Aggregation by geography, products, and customers
+│       ├── 6_Ranking_Analysis.sql          # Top-N and bottom-N revenue/product/customer rankings
+
 │
 ├── tests/                              # Test scripts and quality files
 │
