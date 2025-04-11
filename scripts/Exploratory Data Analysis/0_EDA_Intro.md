@@ -24,7 +24,6 @@ and validate data quality before BI/reporting or dashboarding.
 - `gold.fact_sales`  
 
 ## ⚠️ Warnings
-- This analysis is read-only (safe to run).  
 - This script is designed for data analysis only — it does not modify any tables.  
 - Results may vary if source data is updated or transformed.  
 - For best use, execute queries section-by-section in SQL Server Management Studio (SSMS)
