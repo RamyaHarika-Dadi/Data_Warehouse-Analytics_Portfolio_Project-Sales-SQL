@@ -36,8 +36,10 @@ This project includes:
 - 🏗️ **Data Modeling**  
   Designing fact and dimension tables based on star schema principles for optimized analytical queries.
 
-- 📊 **Analytics & Reporting**  
-  Writing SQL queries to generate insights into customer behavior, product performance, and sales trends.
+- 📊 **Data Analysis & Insights**  
+  - Exploratory Data Analysis (EDA) to validate and understand data trends, metrics, and anomalies.
+  - Advanced Analysis for cumulative metrics, change-over-time trends, segmentation, and performance deep dives.
+  - Reporting views for customer and product summaries using SQL views.
 
 ---
 
@@ -47,7 +49,8 @@ This project includes:
 - ETL Pipeline Creation  
 - Data Cleansing and Transformation  
 - Dimensional Data Modeling (Star Schema)  
-- Data Warehousing Concepts  
+- Data Warehousing Concepts
+- Exploratory & Advanced Analytics  
 - Business Intelligence and Analytics
 
 ---
