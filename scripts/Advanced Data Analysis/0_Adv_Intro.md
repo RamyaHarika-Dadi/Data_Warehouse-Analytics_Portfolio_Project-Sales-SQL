@@ -11,8 +11,11 @@ generate advanced metrics, and segment business data for deeper insights.
 2️⃣ **Cumulative Metrics** – Running totals and moving averages  
 
 3️⃣ **Performance Analysis** – Product-level comparison with averages and past performance  
+
 4️⃣ **Part-to-Whole** – Share of total revenue by category  
+
 5️⃣ **Data Segmentation** – Customer and product grouping based on cost and activity  
+
 6️⃣ **Reporting Views** – Views for customer profiling and product performance
 
 ## 🗃️ Tables Used
