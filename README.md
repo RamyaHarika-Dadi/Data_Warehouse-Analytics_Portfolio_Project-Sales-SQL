@@ -119,7 +119,15 @@ data-warehouse-project/
 │       ├── 4_Measures_Exploration.sql      # Totals, averages, and key KPIs
 │       ├── 5_Magnitude_Analysis.sql        # Aggregation by geography, products, and customers
 │       ├── 6_Ranking_Analysis.sql          # Top-N and bottom-N revenue/product/customer rankings
-
+│   ├── Advanced Data Analysis/         # Advanced analytical SQL scripts for deeper business insights
+│       ├── 0_Adv_Intro.md                  # Intro, purpose, and methodology for advanced analysis
+│       ├── 1_Change_Over_Time_Analysis.sql # Analyze sales and customer metrics over time
+│       ├── 2_Cumulative_Analysis.sql       # Running totals and moving averages
+│       ├── 3_Performance_Analysis.sql      # Evaluate performance vs. average and previous year
+│       ├── 4_Part-to-Whole_Analysis.sql    # Proportional breakdowns by category
+│       ├── 5_Data_Segmentation.sql         # Segment customers and products by behavior and pricing
+│       ├── 6_Customer_Report.sql           # Final aggregated customer report
+│       ├── 7_Product_Report.sql            # Final aggregated product performance report
 │
 ├── tests/                              # Test scripts and quality files
 │
