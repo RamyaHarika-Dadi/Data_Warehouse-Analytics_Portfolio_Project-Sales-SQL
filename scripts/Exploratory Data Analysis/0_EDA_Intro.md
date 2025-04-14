@@ -23,7 +23,7 @@ and validate data quality before BI/reporting or dashboarding.
 - `gold.dim_products`  
 - `gold.fact_sales`  
 
-## ⚠️ Warnings
+## ⚠️ Notes
 - This script is designed for data analysis only — it does not modify any tables.  
 - Results may vary if source data is updated or transformed.  
 - For best use, execute queries section-by-section in SQL Server Management Studio (SSMS)
