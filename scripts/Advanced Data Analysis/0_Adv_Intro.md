@@ -6,17 +6,17 @@ of the Data Warehouse. These scripts go beyond simple EDA and aim to uncover com
 generate advanced metrics, and segment business data for deeper insights.
 
 ## ✅ The Analysis Includes:
-1️⃣ **Change Over Time** – Yearly and monthly trends in sales and customer activity  
+1️⃣ **Change Over Time**: Yearly and monthly trends in sales and customer activity  
 
-2️⃣ **Cumulative Metrics** – Running totals and moving averages  
+2️⃣ **Cumulative Metrics**: Running totals and moving averages  
 
-3️⃣ **Performance Analysis** – Product-level comparison with averages and past performance  
+3️⃣ **Performance Analysis**: Product-level comparison with averages and past performance  
 
-4️⃣ **Part-to-Whole** – Share of total revenue by category  
+4️⃣ **Part-to-Whole**: Share of total revenue by category  
 
-5️⃣ **Data Segmentation** – Customer and product grouping based on cost and activity  
+5️⃣ **Data Segmentation**: Customer and product grouping based on cost and activity  
 
-6️⃣ **Reporting Views** – Views for customer profiling and product performance
+6️⃣ **Reporting Views**: Views for customer profiling and product performance
 
 ## 🗃️ Tables Used
 - `gold.fact_sales`  
