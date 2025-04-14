@@ -1,25 +1,23 @@
+# 📈 Advanced Data Analysis – SQL Data Warehouse Project
 
-=======================================================================================
-📊 Advanced SQL Analysis – SQL Data Warehouse Project
-=======================================================================================
+## 📌 Purpose
+This directory contains advanced analytical SQL scripts built on top of the **Gold Layer**  
+of the Data Warehouse. These scripts go beyond simple EDA and aim to uncover complex trends,  
+generate advanced metrics, and segment business data for deeper insights.
 
-📌 Purpose:
-This script contains a set of advanced SQL queries that dive deeper into analyzing sales, customer, and product data in the **Gold Layer** of the Data Warehouse. These analyses help uncover performance trends, cumulative metrics, proportional contributions, and strategic reporting insights.
+## ✅ What's Included:
+1️⃣ **Change Over Time** – Yearly and monthly trends in sales and customer activity  
+2️⃣ **Cumulative Metrics** – Running totals and moving averages  
+3️⃣ **Performance Analysis** – Product-level comparison with averages and past performance  
+4️⃣ **Part-to-Whole** – Share of total revenue by category  
+5️⃣ **Data Segmentation** – Customer and product grouping based on cost and activity  
+6️⃣ **Reporting Views** – Views for customer profiling and product performance
 
-✅ The analysis includes:
-1️⃣ Change Over Time: Examine how metrics such as sales, quantity, and customers evolve over months and years.  
-2️⃣ Cumulative Metrics: Calculate running totals and moving averages over time.  
-3️⃣ Performance Analysis: Compare product performance against averages and prior years.  
-4️⃣ Part-to-Whole Contribution: Analyze the proportion of sales by category.  
-5️⃣ Data Segmentation: Categorize customers and products for targeted insights.  
-6️⃣ Reporting Views: Build reusable views for customer and product performance summaries.
+## 🗃️ Tables Used
+- `gold.fact_sales`  
+- `gold.dim_customers`  
+- `gold.dim_products`  
 
-🗃️ Tables Used:
-- gold.fact_sales  
-- gold.dim_customers  
-- gold.dim_products
-
-⚠️ Warnings:
-- All queries are read-only and safe to execute.
-- Query results may change as data is updated.
-- Best executed in SQL Server Management Studio (SSMS).
+## ⚠️ Notes
+- Designed for **insight generation**, **dashboards**, and **trend analysis**  
+- Best executed step-by-step in SQL Server Management Studio (SSMS)
