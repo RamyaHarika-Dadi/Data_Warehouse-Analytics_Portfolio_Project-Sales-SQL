@@ -1,5 +1,33 @@
+/*
+===============================================================================
+Product Report (gold.report_products)
+===============================================================================
 
+📌 Purpose:
+This script creates a product-level reporting view in the Gold Layer that aggregates  
+key metrics, segments product performance, and helps support BI reporting and insights.
 
+✅ Highlights:
+1️⃣ Extracts key product metadata (name, category, subcategory, cost)  
+2️⃣ Segments products based on total sales:
+    - High-Performer: > $50,000  
+    - Mid-Range: $10,000–$50,000  
+    - Low-Performer: < $10,000  
+3️⃣ Calculates performance indicators:
+    - Total Orders, Sales, Quantity  
+    - Unique Customers  
+    - Lifespan (months since first to last sale)  
+    - Recency (months since last sale)  
+    - Average Selling Price  
+    - AOR: Average Order Revenue  
+    - Monthly Revenue  
+
+🗃️ Tables Used:
+- gold.fact_sales  
+- gold.dim_products  
+
+===============================================================================
+*/
 
 IF OBJECT_ID('gold.report_products', 'V') IS NOT NULL
     DROP VIEW gold.report_products;
