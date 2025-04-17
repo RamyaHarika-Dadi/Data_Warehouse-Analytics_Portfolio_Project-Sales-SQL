@@ -1,4 +1,9 @@
+# 📈 Advanced Data Analysis – Data Warehouse Project
 
+## 📌 Purpose
+This directory contains advanced analytical SQL scripts built on top of the **Gold Layer**  
+of the Data Warehouse. These scripts go beyond simple EDA and aim to uncover complex trends,  
+generate advanced metrics, and segment business data for deeper insights.
 
 ## ✅ The Analysis Includes:
 1️⃣ **Change Over Time**: Yearly and monthly trends in sales and customer activity  
